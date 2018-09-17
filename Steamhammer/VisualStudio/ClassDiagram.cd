@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UAlbertaBot::UnitToAssign" Collapsed="true">
+    <Position X="29.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\GameCommander.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::GameCommander" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQEFAAAgZiAISAEASgACAAAAQAAQAEAQQEgBAUBGBQQ=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\GameCommander.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::BuildingManager" Collapsed="true">
+    <Position X="34.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAEAQAoAAAAAAAIApCAEdAETQAEBACwxYQBAAAEKgw=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\BuildingManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::BuildingPlacer" Collapsed="true">
+    <Position X="36.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhCAABQBAABABAAMCAUAAAAAAAeAAkCAQhkDAAQEAQg=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\BuildingPlacer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::ProductionGoal" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\ProductionGoal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::ProductionManager" Collapsed="true">
+    <Position X="34.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KBkMCBAAAIoAFEEgECBhEEAAQgIooIgAxABCAJKEAEA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\ProductionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::CompareWhenStarted" Collapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\ProductionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::WorkerMoveData" Collapsed="true">
+    <Position X="36.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAgAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\WorkerData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::WorkerData" Collapsed="true">
+    <Position X="33" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAUAsAEgKBEAAAAGAAEAoUYoBCACkYhAQAUgRCAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\WorkerData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::Building" Collapsed="true">
+    <Position X="31.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAEAIAAAIA4AAQAAJAAACABAAAAACFAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\BuildingData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::WorkerManager" Collapsed="true">
+    <Position X="34.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARVAAAqQCAEAoAAAiBAEFEM4YBaMwkAYGABgFgGBCA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\WorkerManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::BOSSManager" Collapsed="true">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASgEEAQEIARAAEBQAAIQAAAgAEEAACg6QiAgAAAkAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\BOSSManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::BuildOrder" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAAAIABACAAAAEAAAAAACAAAAACAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\BuildOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::BuildOrderQueue" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIHGAEAQAAIRAAICCAAEQAAAIBgAAEBAQQAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\BuildOrderQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::TechCompleteProductionGoal" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQgAAAAAAAAAAAAAAAACAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\TechCompleteProductionGoal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::UpgradeCompleteProductionGoal" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\UpgradeCompleteProductionGoal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::CombatSimulation" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAIAAAACCAAAQAADAAAAAKAAAAABAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\CombatSimulation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::CombatCommander" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQSBBABFEmAKEEEACIAgAVAUMBCJAkIDQIkSAIAUBCA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\CombatCommander.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroManager" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAEBAAEAFIAAAAQEAAAgAAQAIBgAAAEAAhAAAFI=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\MicroManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::ScoutManager" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYADQAQAoagQAgCwACQoACCo8DAJACCSQAACQggEJAg=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\ScoutManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::Squad" Collapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A0CIIniCkEocUgTKABAAYAASIBQKDRMEIQmEggBPYJI=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\Squad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::SquadData" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAoAUAAAAIAAUAAQAAAAMAAAAAAAAAAAIAAAAgFAEA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\SquadData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::SquadOrder" Collapsed="true">
+    <Position X="29.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAIAQAAAAAAAQAAAAAAAAAAQCABAAAKAAAgAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\SquadOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::LocutusUnit" Collapsed="true">
+    <Position X="36.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAkAgAAAggAAAAACKAAAACAIIIAACACgAAAAQEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\LocutusUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::InformationManager" Collapsed="true">
+    <Position X="33" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ibWMOQOrmQAklH204RRnMJVIQFgNwlwOfNg1JIuOBcw=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\InformationManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::StrategyManager" Collapsed="true">
+    <Position X="34.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAIAAAAMAggCkAAAIBCQAGgAAAEogAVgCACICMAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\StrategyManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::TimerManager" Collapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAQBCAAhAAgACAACAAAAAAACAACAAAAACAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\TimerManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::UnitData" Collapsed="true">
+    <Position X="27.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAECAAKAwCEAAABQRAAAAUACAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\UnitData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::LocutusMapGrid" Collapsed="true">
+    <Position X="34.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAQAACAAgAAAAAQgAAAAACAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\LocutusMapGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::GridCell" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAABAAAAAgABACAAAAAAAQAAQgAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MapGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MapGrid" Collapsed="true">
+    <Position X="33" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAUAAAAIAECAAAQDAQAAOAACAAAIAQAAAEAAkAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MapGrid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MapTools" Collapsed="true">
+    <Position X="36.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgQAKQAACAUAAAABAAAAAACBCEAAAAAQ0AAAAQEACAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MapTools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::UAlbertaBotModule" Collapsed="true">
+    <Position X="26" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIEAAAAAAAAEAAAAAACABCAQAAAAAIAAEABAAACAAQ=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\UAlbertaBotModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::Base" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEoJAAIAgEgAAgAAAgAAAEAEABABAABAABAAAAQgg=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::PotentialBase" Collapsed="true">
+    <Position X="33" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\Bases.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::Bases" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAIAEAAEAAACQAIOgAAIIAAAACJgARAAAACAAAAg=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\Bases.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::BuildingData" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAAAAAAAAAAMAABAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\BuildingData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroBunkerAttackSquad" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAIAAACAAAAAAAAEEIIQAAAABAEGIIAACAAAEgAI=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroBunkerAttackSquad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::DistanceMap" Collapsed="true">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIACAQAAQAAIAABCAABAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\DistanceMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::GameRecord" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ESQUJiAAlAIkyAoEDGCEgCLgBGSgAIiQUwEAiIAEkkY=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\GameRecord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MacroAct" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIgABgAABAKiRQAHAAAQBAIUABEBgmASwFkEDAJQE=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MacroAct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MacroCommand" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQIAAAAAAAQAQAAAAAAAABEABAAAEA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroAirToAir" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCABAAAAAAAAAAAAAAAAAgAAAAAAEAQAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroAirToAir.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroCarriers" Collapsed="true">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAACAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroCarriers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroDarkTemplar" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroDarkTemplar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroDetectors" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIAAAGAAAAAAAAAAAAAAAAEAABAAAAAAAABA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroDetectors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroHighTemplar" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroHighTemplar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroLurkers" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACABAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroLurkers.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroMedics" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroMedics.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroMelee" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAAgAAAAAAQAAAAAAgAAAAAAAAQAAAAAAAI=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroMelee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroRanged" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAAAAAAAgAwAAAAAAgAAAAAAAAQAAAAABAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroRanged.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroTanks" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACABAAAAAAAAAAAAAAAAAgAAAAAAEAAAAAACAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroTanks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::MicroTransports" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAABACAQAAAAAARBAEAAYCIAAAAAAAAIAQIEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroTransports.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::OpponentModel" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAYEAVACQAgIQwQCGA0CkAEBAQBIBEAwwIEQABlAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\OpponentModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::OpponentPlan" Collapsed="true">
+    <Position X="29.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAABAAAAAAAAgAAAQAAgAAAAAAABAAAAgAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\OpponentPlan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::PlayerSnapshot" Collapsed="true">
+    <Position X="31.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAEABAAAAAAgQAAAQAACAAAIAAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\PlayerSnapshot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::Random" Collapsed="true">
+    <Position X="36.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAIAAAAAAAAAABAAAQAAAAAABAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\Random.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAlbertaBot::StrategyBossZerg" Collapsed="true">
+    <Position X="33" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Qg3gTCQUMBGoXCrAsoarYD0IMKEVGQhKXhckWBYIgC0=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\StrategyBossZerg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIBAAACAAAAAAAgAAIAAAAEgAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TempAreaInfo" Collapsed="true">
+    <Position X="36.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAIAAgAAAgAAAAAAAAAABAAgIAQQAAAAgBgIAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\src\mapImpl.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_record_read_error" Collapsed="true">
+    <Position X="36.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\GameRecord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Mineral" Collapsed="true">
+    <Position X="15.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\neutral.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Geyser" Collapsed="true">
+    <Position X="18" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\neutral.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Tile" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAgAAAAkgAgqAAAAASBQAQIMUgIAABAABA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\tiles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Base" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAAAmQAAAACECBIIAEAQAAAAAAAAAAAgEAQIwAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::ChokePoint" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJQIAAAAkACAAAAgAEBACIAAQACAAASAgAUgAAIIgDA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\cp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Map" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAmAAAAJBAgwAUCIBAAEIAAACDgkJCQCAIFSaIICQ=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Area" Collapsed="true">
+    <Position X="4.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BhyCSaAEwJIABBEACFTAAkEAEEwJCASSAAggIQYAgAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\area.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Ressource" Collapsed="true">
+    <Position X="16.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAFIACAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\neutral.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Neutral" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BhAAgAgAtABAgBAAIpAAAAAQCCCAIAAQAQEkAwIAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\neutral.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::Exception" Collapsed="true">
+    <Position X="34.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\defs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::StaticBuilding" Collapsed="true">
+    <Position X="13.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\neutral.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::MiniTile" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAJAAAABAAAAABAoAIAQAQQIABQIUgAAAAAAEA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\tiles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::detail::Graph" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABiAAAQgAAAAAgEQAJAAAIAAAgCCIghGBgCgFAAAARE=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\graph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::detail::MapImpl" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQBAnEAAgIBQAQBRCIBACkAAAgCC2FgCACAAMwQEIAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\mapImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::utils::GridMap&lt;T, N&gt;" Collapsed="true">
+    <Position X="31.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAoQAQBAAAAAABABIAAEAAIAAACACAAAAAAAEAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\gridMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::utils::MapDrawer" Collapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQgACgBAAAAACBAAAAAAAAABAAAAQJAAAAAAAAAI=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\mapDrawer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::utils::MapPrinter" Collapsed="true">
+    <Position X="34.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQgAAgBAAgQBIBBgAIEAAAAhggAAYKFAkQAABACA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\mapPrinter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::utils::Markable&lt;Derived, Mark&gt;" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAQAAgAAAAAAAggAAgBAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\utils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEM::utils::UserData" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCABABAAAAAAAAAIBAAAAIQAAAABAAAAAAAAAIAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\utils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEB::Block" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQsAEAAAAAAAAQAQCIAAAAAAAgAQAAAQAwAAAAABAE=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEB\src\Block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEB::Wall" Collapsed="true">
+    <Position X="31.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAIAAgAAACACiAgAQAAAABQAQIIAAAAwAIABk=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEB\src\Wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEB::Station" Collapsed="true">
+    <Position X="31.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAABAACAAAAAAEAAAAAAQAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEB\src\Station.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BWEB::Map" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>egXmyEoBihQKELETCCMAujAh9FIAJwMaUoIIPEwIB8U=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEB\src\BWEB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="UAlbertaBot::BuildOrderItem" Collapsed="true">
+    <Position X="26" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAABAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\BuildOrderQueue.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::HarassPylon" Collapsed="true">
+    <Position X="26" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAAAAAAAAIAAAAACAAAAAAAAAAEAgAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\ScoutManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::Strategy" Collapsed="true">
+    <Position X="33" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAABAAAAAAAAAAAAACAAABAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\StrategyManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::UnitInfo" Collapsed="true">
+    <Position X="36.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAIgAoAAAAAAQAAQABQAABAAQBAAAgQABAAQA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\UnitData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::ChokeData" Collapsed="true">
+    <Position X="27.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAQAwAAAABAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MapTools.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::ForgeGatewayWallOption" Collapsed="true">
+    <Position X="36.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIAAAAAgAjAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\LocutusWall.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::LocutusWall" Collapsed="true">
+    <Position X="27.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAIAYAAIACwAjAAAAAAAABIAQAAAQAQAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\LocutusWall.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::FastAPproximation" Collapsed="true">
+    <Position X="34.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xAAACCAgAAACGgCAQACQAAAAAUBAAAAAgAEAAQAABoA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\FAP.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UAlbertaBot::GameSnapshot" Collapsed="true">
+    <Position X="24.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAABAAAAQAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\GameRecord.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlockData" Collapsed="true">
+    <Position X="24.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\BuildingPlacer.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompareTiles" Collapsed="true">
+    <Position X="31.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroRanged.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompareUnits" Collapsed="true">
+    <Position X="33" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MicroRanged.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BWEM::utils::TileOfPosition&lt;BWAPI::TilePosition&gt;" Collapsed="true">
+    <Position X="34.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\tiles.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BWEM::utils::PositionOfTile&lt;Tile&gt;" Collapsed="true">
+    <Position X="29.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\tiles.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BWEM::utils::PositionOfTile&lt;MiniTile&gt;" Collapsed="true">
+    <Position X="31.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\tiles.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BWEM::utils::compare2nd" Collapsed="true">
+    <Position X="29.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\utils.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="UAlbertaBot::SearchPtr" Collapsed="true">
+    <Position X="31.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\BOSSManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UAlbertaBot::MetaPair" Collapsed="true">
+    <Position X="27.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\StrategyManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UAlbertaBot::MetaPairVector" Collapsed="true">
+    <Position X="29.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\StrategyManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UAlbertaBot::UnitInfoVector" Collapsed="true">
+    <Position X="34.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\UnitData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UAlbertaBot::UIMap" Collapsed="true">
+    <Position X="33" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\UnitData.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BWEM::CPPath" Collapsed="true">
+    <Position X="26" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\cp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BWEM::altitude_t" Collapsed="true">
+    <Position X="24.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\defs.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="UAlbertaBot::ExtractorTrick" Collapsed="true">
+    <Position X="33" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEAAAAAAAAAAAAAAAAAAAAABAAAIEAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\ProductionManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::PylonHarassStates" Collapsed="true">
+    <Position X="29.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABACAACAAQAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\source\ScoutManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::MacroLocation" Collapsed="true">
+    <Position X="36.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACAAAAAAAAAEAAAAAAgAAAAQAAQAABAEMAgA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MacroAct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::MacroCommandType" Collapsed="true">
+    <Position X="34.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAEAAIAQAAIEAAAAAgSAAAAEACECAAIEAEAAAg=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MacroCommand.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::PylonHarassBehaviour" Collapsed="true">
+    <Position X="27.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIGAAAACAAAAAQAAAgAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\OpponentModel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::OpeningPlan" Collapsed="true">
+    <Position X="24.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAgRgAAAIAAAAAAAAgBAAAEAAAAAAAAAAJI=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\OpponentPlan.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::TechUnit" Collapsed="true">
+    <Position X="31.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAoAQAACAAAAIAAAAACAAAQAAAAAEAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\StrategyBossZerg.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::SquadOrderTypes::__unnamed_enum_008f_1" Collapsed="true">
+    <Position X="29.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgABAAAAQAAAAQgAAAAAAAIgAAAAAAAAAAAEAQAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\SquadOrder.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::PathFinding::PathFindingOptions" Collapsed="true">
+    <Position X="26" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\PathFinding.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BWEM::`anonymous-namespace'::__unnamed_enum_0026_1" Collapsed="true">
+    <Position X="24.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\src\tiles.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BWEM::utils::check_t" Collapsed="true">
+    <Position X="31.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\BWEM\include\defs.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::BuildingStatus::__unnamed_enum_002f_1" Collapsed="true">
+    <Position X="26" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAgA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\BuildingData.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UAlbertaBot::MacroActs::__unnamed_enum_0056_1" Collapsed="true">
+    <Position X="27.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAgJAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>D:\AIIDE\bot\Locutus\Steamhammer\Source\MacroAct.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
