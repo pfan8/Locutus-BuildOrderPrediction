@@ -1,2 +1,2 @@
-# Locutus-BuildOrderPrediction
-StarCraft BroodWar AI bot Locotus add BuildOrderPrediction DNN Model
+# StarCraftBot-BuildOrderPrediction
+StarCraft BroodWar AI bot L add BuildOrderPrediction DNN Model
